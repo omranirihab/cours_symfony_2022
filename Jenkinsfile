@@ -15,7 +15,7 @@ pipeline {
           }
         }
 
-        stage('intégration') {
+        stage('intÃ©gration') {
           steps {
             bat 'php bin/phpunit'
           }
